@@ -13,8 +13,8 @@
 
 #theme: "jekyll-agency"
 
-url    : "https://mattddickinson.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "/risknerd3" # the subpath of your site, e.g. /blog
+url    : "https://mattddickinson.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "risknerd3" # the subpath of your site, e.g. /blog
 repo:    "https://github.com/mattddickinson/risknerd/"
 
 title      : RiskNerd Consulting
