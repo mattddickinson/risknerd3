@@ -1,18 +1,18 @@
-Gem::Specification.new do |spec|
-  spec.name     = "jekyll-agency"
-  spec.version  = "1.1.0"
-  
-  spec.authors  = ["Ravi Riley"]
-  
-  spec.summary  = "Bootstrap Agency ported to Jekyll. Added lots of new features: Markdown support, custom pages, Google Analytics, customizable styling, and more! This is the most up-to-date Jekyll Agency theme."
-  spec.homepage = "https://github.com/raviriley/agency-jekyll-theme"
-  spec.license  = "MIT"
-  spec.files    = `git ls-files -z`.split("\x0").select do |f|
-    f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|index|404|legal)((\.(txt|md|markdown|html)|$)))}i)
-  end
+# coding: utf-8
 
-  spec.required_ruby_version = '>= 2.5.0'
-  spec.add_runtime_dependency "jekyll", ">= 4.0", "< 4.4"
-  spec.add_development_dependency "bundler", "~> 2.0"
-  spec.add_development_dependency "rake", "~> 13.0"
+Gem::Specification.new do |spec|
+  spec.name          = 'agency-jekyll-theme'
+  spec.version       = '1.0.0'
+  spec.authors       = ["Klaudia Alvarez"]
+  spec.email         = 'klaudia.devel@gmail.com'
+  spec.summary       = "Agency Jekyll Theme is a jekyll theme gem, based on Agency theme created by Start Bootstrap."
+  spec.description   = "Agency Jekyll Theme is a single-page theme. It features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline, and a contact form."
+  spec.homepage      = "http://github.com/laklau/agency-jekyll-theme"
+  spec.license       = 'MIT'
+
+  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r{^(assets|_layouts|_includes|_sass|_data|vendor|LICENSE|README.md|index.md|screenshot.png)}i) }
+
+  spec.add_development_dependency "jekyll", "~> 3.3"
+  spec.add_development_dependency "bundler", "~> 1.12"
+  spec.add_development_dependency "rake", "~> 10.0"
 end
