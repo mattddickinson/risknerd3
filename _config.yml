@@ -11,21 +11,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-#theme: "jekyll-agency"
+theme: jekyll-agency
 
-url    : "https://mattddickinson.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: "risknerd3" # the subpath of your site, e.g. /blog
-repo:    "https://github.com/mattddickinson/risknerd/"
+url    : "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
 
-title      : RiskNerd Consulting
-email      : info@risknerd.ca #this is also the email contact forms will go to
+title      : Your Awesome Website
+email      : your-email@example.com #this is also the email contact forms will go to
 description: "Site description"
-author     : Matt Dickinson
-logo:      #optional, defaults to site title
-path:      assets\img\clients\logos\logo.svg
-height:    60 #height in px, defaults to 52px
+author     : Your Name
+# logo:     #optional, defaults to site title
+  # path: assets\img\clients\creative-market.jpg
+  # height: 60 #height in px, defaults to 52px
 
-locale:    "en-CA" # See available languages in _data/sitetext.yml
+locale: "en-US" # See available languages in _data/sitetext.yml
 
 analytics:
   google: #Google Analytics tracking code here
